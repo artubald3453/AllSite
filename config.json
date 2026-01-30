@@ -1,0 +1,284 @@
+{
+  "AI_SETTINGS": {
+    "api_key": null,
+    "enabled": false,
+    "model": null
+  },
+  "ALIASES": {
+    "aux_1": {
+      "auto_off": true,
+      "config_spot": "config_spot14"
+    },
+    "aux_2": {
+      "auto_off": true,
+      "config_spot": "config_spot15"
+    },
+    "aux_3": {
+      "auto_off": true,
+      "config_spot": "config_spot16"
+    },
+    "buzzer": {
+      "auto_off": true,
+      "config_spot": "config_spot13"
+    },
+    "led_1": {
+      "auto_off": true,
+      "config_spot": "config_spot9"
+    },
+    "led_2": {
+      "auto_off": true,
+      "config_spot": "config_spot10"
+    },
+    "motor_1": {
+      "auto_off": true,
+      "config_spot": "config_spot1"
+    },
+    "motor_2": {
+      "auto_off": true,
+      "config_spot": "config_spot2"
+    },
+    "motor_3": {
+      "auto_off": true,
+      "config_spot": "config_spot3"
+    },
+    "motor_4": {
+      "auto_off": true,
+      "config_spot": "config_spot4"
+    },
+    "motor_5": {
+      "auto_off": true,
+      "config_spot": "config_spot5"
+    },
+    "motor_6": {
+      "auto_off": true,
+      "config_spot": "config_spot6"
+    },
+    "motor_7": {
+      "auto_off": true,
+      "config_spot": "config_spot7"
+    },
+    "motor_8": {
+      "auto_off": true,
+      "config_spot": "config_spot8"
+    },
+    "relay_1": {
+      "auto_off": true,
+      "config_spot": "config_spot11"
+    },
+    "relay_2": {
+      "auto_off": true,
+      "config_spot": "config_spot12"
+    },
+    "servo_1": {
+      "auto_off": true,
+      "config_spot": "config_spot17"
+    },
+    "servo_2": {
+      "auto_off": true,
+      "config_spot": "config_spot18"
+    },
+    "spare_1": {
+      "auto_off": true,
+      "config_spot": "config_spot19"
+    },
+    "spare_2": {
+      "auto_off": true,
+      "config_spot": "config_spot20"
+    },
+    "spare_3": {
+      "auto_off": true,
+      "config_spot": "config_spot21"
+    },
+    "spare_4": {
+      "auto_off": true,
+      "config_spot": "config_spot22"
+    },
+    "spare_5": {
+      "auto_off": true,
+      "config_spot": "config_spot23"
+    },
+    "spare_6": {
+      "auto_off": true,
+      "config_spot": "config_spot24"
+    },
+    "spare_7": {
+      "auto_off": true,
+      "config_spot": "config_spot25"
+    },
+    "spare_8": {
+      "auto_off": true,
+      "config_spot": "config_spot26"
+    },
+    "spare_9": {
+      "auto_off": true,
+      "config_spot": "config_spot27"
+    }
+  },
+  "GPIO_PINS": {
+    "config_spot1": 2,
+    "config_spot10": 11,
+    "config_spot11": 12,
+    "config_spot12": 13,
+    "config_spot13": 14,
+    "config_spot14": 15,
+    "config_spot15": 16,
+    "config_spot16": 17,
+    "config_spot17": 18,
+    "config_spot18": 19,
+    "config_spot19": 20,
+    "config_spot2": 3,
+    "config_spot20": 21,
+    "config_spot21": 22,
+    "config_spot22": 23,
+    "config_spot23": 24,
+    "config_spot24": 25,
+    "config_spot25": 26,
+    "config_spot26": 27,
+    "config_spot27": null,
+    "config_spot3": 4,
+    "config_spot4": 5,
+    "config_spot5": 6,
+    "config_spot6": 7,
+    "config_spot7": 8,
+    "config_spot8": 9,
+    "config_spot9": 10
+  },
+  "GROUPS": {
+    "alarm": {
+      "action": "on",
+      "aliases": [
+        "buzzer",
+        "led_1",
+        "led_2"
+      ]
+    },
+    "all_motors": {
+      "action": "on",
+      "aliases": [
+        "motor_1",
+        "motor_2",
+        "motor_3",
+        "motor_4",
+        "motor_5",
+        "motor_6",
+        "motor_7",
+        "motor_8"
+      ]
+    },
+    "all_off": {
+      "action": "on",
+      "aliases": [
+        "motor_1",
+        "motor_2",
+        "motor_3",
+        "motor_4",
+        "motor_5",
+        "motor_6",
+        "motor_7",
+        "motor_8",
+        "led_1",
+        "led_2",
+        "relay_1",
+        "relay_2",
+        "buzzer",
+        "aux_1",
+        "aux_2",
+        "aux_3",
+        "servo_1",
+        "servo_2",
+        "spare_1",
+        "spare_2",
+        "spare_3",
+        "spare_4",
+        "spare_5",
+        "spare_6",
+        "spare_7",
+        "spare_8",
+        "spare_9"
+      ]
+    },
+    "all_on": {
+      "action": "on",
+      "aliases": [
+        "motor_1",
+        "motor_2",
+        "motor_3",
+        "motor_4",
+        "motor_5",
+        "motor_6",
+        "motor_7",
+        "motor_8",
+        "led_1",
+        "led_2",
+        "relay_1",
+        "relay_2",
+        "buzzer",
+        "aux_1",
+        "aux_2",
+        "aux_3",
+        "servo_1",
+        "servo_2",
+        "spare_1",
+        "spare_2",
+        "spare_3",
+        "spare_4",
+        "spare_5",
+        "spare_6",
+        "spare_7",
+        "spare_8",
+        "spare_9"
+      ]
+    },
+    "backward": {
+      "action": "on",
+      "aliases": [
+        "motor_3",
+        "motor_4"
+      ]
+    },
+    "forward": {
+      "action": "on",
+      "aliases": [
+        "motor_1",
+        "motor_2"
+      ]
+    },
+    "left": {
+      "action": "on",
+      "aliases": [
+        "motor_1",
+        "motor_4"
+      ]
+    },
+    "lights_off": {
+      "action": "on",
+      "aliases": [
+        "led_1",
+        "led_2"
+      ]
+    },
+    "lights_on": {
+      "action": "on",
+      "aliases": [
+        "led_1",
+        "led_2"
+      ]
+    },
+    "right": {
+      "action": "on",
+      "aliases": [
+        "motor_2",
+        "motor_3"
+      ]
+    },
+    "stop": {
+      "action": "on",
+      "aliases": [
+        "motor_1",
+        "motor_2",
+        "motor_3",
+        "motor_4"
+      ]
+    }
+  }
+}
